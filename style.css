@@ -1,0 +1,142 @@
+body {
+    font-family:'Poppins',sans-serif;
+    background-color:#002633;
+    color: #032e49;
+}
+.main-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit,1fr);
+    grid-gap: 15px;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.main-container > #header:nth-child(1) {
+    background-color: #ccf2ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-radius: 7px;
+}
+
+.main-container > #skills:nth-child(2), .main-container > #education:nth-child(3), .main-container > #internship:nth-child(4), .main-container > #hobbies:nth-child(5) {
+    background-color: #ccf2ff;
+    display: flex;
+    padding:10px;
+    border-radius: 7px;
+}
+.picture {
+    overflow: hidden;
+    border: solid #66d9ff;
+    border-radius: 50%;
+    margin-bottom:-20px;
+    width: 200px;
+    height:200px;
+}
+.profile {
+    width:270px;
+    margin:-40px -10px -100px -30px;
+}
+#githhub{
+    height:40px;
+    width:40px;
+    margin-bottom: -5px;
+    margin-right:-9px;
+    
+}
+.logo {
+    margin-top:-30px;
+    height: 30px;
+    width: 30px;
+}
+.navigation {
+    margin-left:-10px;
+}
+#education {
+    display: flex;
+    flex-direction: column;
+    padding:5px ;
+}
+#sahyadricollege {
+    height:200px;
+    width:356px;
+    border-radius: 10px;
+}
+#edudesc {
+    font-size: 1.1rem;
+}
+#cs {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.edu {
+    margin:5px 5px 5px 0px;
+}
+
+.skillsimg {
+    height:80px;
+    width:80px;
+}
+#skills {
+    display:flex;
+    flex-direction:column;
+}
+#skillset {
+    margin-left: -10px;
+}
+
+#internship {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+#internshipimg {
+    height:200px;
+    width:356px;
+    border-radius: 10px;
+}
+.intern {
+    margin:5px 5px 5px 0px;
+}
+#headintern ,#headskills,#headhobbies,#headeducation {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin:5px 5px 5px 0px;
+}
+
+#hobbies {
+    display:flex;
+    flex-direction: column;
+}
+#hob {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.hobbiesimg {
+    display:flex;
+    flex-direction: row;
+    width:150px;
+    height:130px;
+    border-radius: 10px;
+}
+#hobbiesset {
+    display: flex;
+    flex-direction:row;
+    margin-left: -5px;
+
+}
+.hobbieborder {
+    display:flex;
+    flex-direction: column;
+    padding:5px;
+    margin: 5px;
+    width:150px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #608f9f;
+}
