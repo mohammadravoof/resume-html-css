@@ -1,2 +1,1 @@
-# resume-html-css
-Resume with html and css
+https://mohammadravoof.github.io/resume-html-css/resume.html
